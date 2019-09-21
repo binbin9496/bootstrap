@@ -27,7 +27,7 @@
       "always-multiline"
     ],
     "new-cap": "off",
-    "no-mixed-operators": "off",
+    "no-mixed-operators": "error",
     "object-curly-spacing": [
       "error",
       "always"
@@ -44,8 +44,8 @@
       "never"
     ],
     "unicorn/explicit-length-check": "off",
-    "unicorn/filename-case": "off",
     "unicorn/import-index": "off",
+    "unicorn/no-for-loop": "off",
     "unicorn/no-unused-properties": "error",
     "unicorn/prefer-includes": "off",
     "unicorn/prefer-node-append": "off",

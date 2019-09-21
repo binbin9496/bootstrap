@@ -32,7 +32,7 @@ For left, right, and center alignment, responsive classes are available that use
 Wrap text with a `.text-wrap` class.
 
 {{< example >}}
-<div class="badge badge-primary text-wrap" style="width: 6rem;">
+<div class="badge bg-primary text-wrap" style="width: 6rem;">
   This text should wrap.
 </div>
 {{< /example >}}
@@ -43,22 +43,6 @@ Prevent text from wrapping with a `.text-nowrap` class.
 <div class="text-nowrap bd-highlight" style="width: 8rem;">
   This text should overflow the parent.
 </div>
-{{< /example >}}
-
-For longer content, you can add a `.text-truncate` class to truncate the text with an ellipsis. **Requires `display: inline-block` or `display: block`.**
-
-{{< example >}}
-<!-- Block level -->
-<div class="row">
-  <div class="col-2 text-truncate">
-    Praeterea iter est quasdam res quas ex communi.
-  </div>
-</div>
-
-<!-- Inline level -->
-<span class="d-inline-block text-truncate" style="max-width: 150px;">
-  Praeterea iter est quasdam res quas ex communi.
-</span>
 {{< /example >}}
 
 ## Word break
@@ -94,12 +78,23 @@ Quickly change the weight (boldness) of text or italicize text.
 <p class="font-italic">Italic text.</p>
 {{< /example >}}
 
-## Monospace
+## Line height
 
-Change a selection to our monospace font stack with `.text-monospace`.
+Change the line height with `.lh-*` utilities.
 
 {{< example >}}
-<p class="text-monospace">This is in monospace</p>
+<p class="lh-1">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec sed odio dui. Cras mattis pannenkoek purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus sit amet fermentum.</p>
+<p class="lh-sm">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec sed odio dui. Cras mattis pannenkoek purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus sit amet fermentum.</p>
+<p class="lh-base">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec sed odio dui. Cras mattis pannenkoek purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus sit amet fermentum.</p>
+<p class="lh-lg">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec sed odio dui. Cras mattis pannenkoek purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus sit amet fermentum.</p>
+{{< /example >}}
+
+## Monospace
+
+Change a selection to our monospace font stack with `.font-monospace`.
+
+{{< example >}}
+<p class="font-monospace">This is in monospace</p>
 {{< /example >}}
 
 ## Reset color
